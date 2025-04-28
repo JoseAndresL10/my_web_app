@@ -23,7 +23,4 @@ for index,todo in enumerate(todos):
 st.text_input(label='Aquí abajo', key = 'new_todo', placeholder ='Ingrese Todo', on_change=add_todo)
 
 
-st.session_state
-
-
 
